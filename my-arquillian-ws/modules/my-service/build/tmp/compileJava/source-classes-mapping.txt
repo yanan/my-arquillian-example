@@ -1,0 +1,4 @@
+my/liferay/service/MyService.java
+ my.liferay.service.MyService
+my/liferay/service/impl/MyServiceImpl.java
+ my.liferay.service.impl.MyServiceImpl

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class my.service.test.MyServiceIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class my.service.test.MyServiceIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/my.service.test.html">my.service.test</a> &gt; MyServiceIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="classMethod"></a>
+<h3 class="failures">classMethod</h3>
+<span class="code">
+<pre>java.lang.NoClassDefFoundError: com/liferay/portal/kernel/test/rule/AbstractTestRule
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.defineClass(ModuleClassLoader.java:276)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.defineClass(ClasspathManager.java:634)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:555)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:514)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:501)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:480)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:151)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at com.liferay.portal.test.rule.LiferayIntegrationTestRule._getTestRules(LiferayIntegrationTestRule.java:35)
+	at com.liferay.portal.test.rule.LiferayIntegrationTestRule.&lt;init&gt;(LiferayIntegrationTestRule.java:25)
+	at my.service.test.MyServiceIntegrationTest.&lt;clinit&gt;(MyServiceIntegrationTest.java:30)
+	at sun.misc.Unsafe.ensureClassInitialized(Native Method)
+	at sun.reflect.UnsafeFieldAccessorFactory.newFieldAccessor(UnsafeFieldAccessorFactory.java:43)
+	at sun.reflect.ReflectionFactory.newFieldAccessor(ReflectionFactory.java:156)
+	at java.lang.reflect.Field.acquireFieldAccessor(Field.java:1088)
+	at java.lang.reflect.Field.getFieldAccessor(Field.java:1069)
+	at java.lang.reflect.Field.get(Field.java:393)
+	at org.junit.runners.model.FrameworkField.get(FrameworkField.java:73)
+	at org.junit.runners.model.TestClass.getAnnotatedFieldValues(TestClass.java:230)
+	at com.liferay.arquillian.extension.junit.bridge.server.TestExecutorRunnable._withRules(TestExecutorRunnable.java:456)
+	at com.liferay.arquillian.extension.junit.bridge.server.TestExecutorRunnable._classBlock(TestExecutorRunnable.java:258)
+	at com.liferay.arquillian.extension.junit.bridge.server.TestExecutorRunnable._execute(TestExecutorRunnable.java:313)
+	at com.liferay.arquillian.extension.junit.bridge.server.TestExecutorRunnable.run(TestExecutorRunnable.java:95)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.liferay.portal.kernel.test.rule.AbstractTestRule cannot be found by com.liferay.portal.test.integration_6.0.34
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:467)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:429)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:151)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 30 more
+
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">classMethod</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.9.2</a> at Sep 12, 2023 11:14:24 AM</p>
+</div>
+</div>
+</body>
+</html>
