@@ -1,0 +1,7 @@
+Bundle-Name: my-service-test
+Bundle-SymbolicName: my.service.test
+Bundle-Version: 1.0.0
+Export-Package: my.service.test
+Require-Capability:\
+	osgi.ee;\
+		filter:="(&(osgi.ee=JavaSE)(version=11))"

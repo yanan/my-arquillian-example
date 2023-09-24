@@ -1,0 +1,5 @@
+Bundle-Name: my-service
+Bundle-SymbolicName: my.service
+Bundle-Version: 1.0.0
+Export-Package: my.liferay.service
+Private-Package: my.liferay.service.impl

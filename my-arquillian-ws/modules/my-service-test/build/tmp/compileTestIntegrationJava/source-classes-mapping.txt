@@ -1,2 +1,0 @@
-my/service/test/MyServiceIntegrationTest.java
- my.service.test.MyServiceIntegrationTest
